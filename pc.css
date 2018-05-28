@@ -1,0 +1,89 @@
+ .pc{
+
+ @media screen and (max-width: 767px) {
+        /* Hide captions */
+        .carousel-caption {
+            display: none;
+        }
+        .caja-img {
+            display: none;
+        }
+        .skill {
+            display: none;
+        }
+        .skillsm div {
+            display: all;
+        }
+        .skillsm {
+            display: all;
+        }
+        .x {
+            display: none;
+        }
+        #oculto {
+            display: none;
+        }
+        .img {
+            display: all;
+            width: auto;
+            height: auto;
+            border-radius: 5%;
+        }
+    }
+    
+    @media only screen and (max-width: 1024px) {
+        .skill {
+            display: none;
+        }
+        .skillsm div {
+            display: all;
+        }
+        .x {
+            display: none;
+        }
+        #oculto {
+            display: none;
+        }
+    }
+    
+    @media only screen and (min-width: 768px) {
+        .caja {
+            width: 650px;
+            padding: 50px;
+            text-align: center;
+            margin: auto;
+            margin-top: 5%;
+        }
+        .caja-img {
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+        .img {
+            display: none;
+        }
+        .skillsm {
+            display: none;
+        }
+        .skillsm div {
+            display: none;
+        }
+        .c-bar::before {
+            display: none;
+        }
+        .caja-img2 {
+            display: none;
+        }
+        .information ul {
+            width: auto;
+        }
+        progress {
+            width: 60%;
+            height: 25%;
+        }
+        #oculto {
+            display: none;
+        }
+    }
+
+}

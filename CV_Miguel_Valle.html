@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <!-- Se agregan los archivos css que se utilizaran para las distintas vistas -->
+    <title>CV Miguel Valle</title>
+    <link rel="stylesheet" href="pc.css" asp-append-version="true">
+    <link rel="stylesheet" asp-appen-version="true" media="only screen and (max-device-width: 1024px)" href="tablet.css" />
+    <link rel="stylesheet" asp-appen-version="true" media="only screen and (max-device-width: 767px)" href="phone.css" />
+<style>
+body{
+	background-color: #ff6666;
+}
+h1{
+	background-color: #ffffcc;
+	font-family: verdana;	
+}
+h2{
+	background-color: #ffffcc;
+	font-family: courier;	
+}
+h3{
+	background-color: #ffffff;
+	font-family: courier;	
+}
+li{
+	background-color: #ffffff;
+	font-family: courier;
+}
+p{
+	background-color: #ffffff;
+	font-family: courier;
+}
+</style>
+
+</head>
+
+
+<body>
+    <!-- Enmarcamos todo el CV con la info en un recuadro de enmedio -->
+    <div class="caja">
+        <div class="top">
+            <div id="rectangle"></div>
+            <!-- imagen general que aparece en el diseño de desktop -->
+            <img src="foto.jpg">
+            <center><h1><b>Héctor Miguel Valle Quinto</b></h1>
+            <h3><i>Computer Science Engineer</i></h3><br>
+	    </center>
+            <h2>ABOUT ME</h2>
+            <p>
+                I'm someone who enjoys playing videogames, watching documentaries about anything I find interesting, taking long walks so I can daydream about nothing in particular , while listening to music and finding easy ways to make my life more comfortable. 
+            </p>
+        </div>
+        <!-- informacion personal que aparece al inicio de la pagina -->
+        <div class="information">
+            <h2>BASIC INFORMATION</h2>
+            <!-- Se enlistan elementos con fomrato work-->
+            <ul>
+                <li class="work"><b>Proffesion:</b> Computer science engineer</li>
+                <li class="work"><b>Country:</b> Guatemala, Guatemala</li>
+                <li class="work"><b>Email:</b>val17102@uvg.edu.gt</li>
+                <li class="work"><b>Phone number:</b> 54130451</li>
+            </ul>
+        </div>
+        <div id="skills" class="information">
+            <h2>SKILLS</h2>
+            <!-- Lista para enlistar mis habilidades de programacion -->
+            <ul>
+                <li class="work"><b>C++</b></li>
+                <div class="progress">
+                    <div>40%</div>
+                </div>
+                <li class="work"><b>Pascal</b></li>
+                <div>
+                    <div >70%</div>
+                </div>
+                <li class="work"><b>Java</b></li>
+                <div>
+                    <div>70%</div>
+                </div>
+                <li class="work"><b>Python</b></li>
+                <div>
+                    <div>60%</div>
+                </div>
+                <li class="work"><b>Mongo</b></li>
+                <div class="progress">
+                    <div>10%</div>
+                </div>
+                <li class="work"><b>HTML</b></li>
+                <div>
+                    <div>25%</div>
+		</div>
+		<li class="work"><b>PHP</b></li>
+                <div class="progress">
+                    <div>35%</div>
+                </div>
+		<li class="work"><b>SQL</b></li>
+                <div>
+                    <div>50%</div>
+                </div>
+            </ul>
+        </div>
+        <!-- Lista para describir la experiencia laboral -->
+        <div id="work" class="information">
+            <h2>WORK EXPERIENCE</h2>
+            <ul>
+                <li><p>
+		Intern at BSCI
+		</p></li>
+            </ul>
+        </div>
+        <!-- Recuadro con la informacion de educacion -->
+        <div id="education" class="information">
+            <h2>EDUCATION</h2>
+            <!-- Nombramos el establecimiento y la info contenida en un <p> -->
+            <ul>
+                <li><b>Colegio Suizo Americano San Cristobal</b></li>
+                <p>Pre-Primary School (2002-2004)</p>
+		<li><b>Sea Mills Primary School</b></li>
+		<p>Primary School (2005-2006)</p>
+		<li><b>Stoke Bishop Church of England Primary School</b></li>
+		<p>Primary School (2006-2010)</p>
+		<li><b>Colegio Suizo Americano Acatan</b></li>
+		<p>Secondary School (2011-2014)</p>
+                <p>Bachiller en Computación con Orientación Cientifica (2015-2016)</p>
+                <hr>
+                <li><b>Universidad del Valle de Guatemala</b></li>
+                <p>Licenciatura en Ingenieria en Ciencias de la Computacion y Tecnologias de la Informacion</p>
+                <hr>
+               
+                <hr>
+            </ul>
+        </div>
+        <!-- Recuadro con la informacion sobre logros -->
+        <div id="achievements" class="information">
+            <h2>ACHIEVEMENTS</h2>
+            <ul>
+                <hr>
+                <li class="achiev">Graduado con Distincion Academica 2016</li>
+                <hr>
+		 <hr>
+                <li class="achiev">Distincion Academica UVG 2017</li>
+                <hr>
+            </ul>
+        </div>
+	
+</body>
+
+</html>

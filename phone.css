@@ -1,0 +1,67 @@
+.phone{
+	
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+    .caja-img {
+        display: none;
+    }
+    .skill {
+        display: none;
+    }
+    .skillsm div {
+        display: all;
+    }
+    .x {
+        display: none;
+    }
+    body {
+        background-image: url("../img/fondo3.jpg");
+    }
+    #oculto {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #oculto {
+        display: none;
+    }
+    .caja {
+        width: 650px;
+    }
+    .caja-img {
+        width: 100%;
+        height: auto;
+        border-radius: 50%;
+    }
+    .skillsm {
+        display: none;
+    }
+    .skillsm div {
+        display: all;
+    }
+    .skillsm {
+        display: all;
+    }
+    .c-bar::before {
+        display: none;
+    }
+    .caja-img2 {
+        display: none;
+    }
+    .information ul {
+        width: auto;
+    }
+    progress {
+        width: 60%;
+        height: 25%;
+    }
+    body {
+        background-image: url("../img/fondo3.jpg");
+    }
+}
+	
+}
